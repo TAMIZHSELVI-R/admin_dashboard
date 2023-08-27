@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+.main{
+    display:flex;
+}
+a{
+    text-decoration: none;
+}
+.sidebar{
+    background-color: black;
+    color: white;
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 40px 20px;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left:10px;
+}
+.content{
+    margin-left: 5%;
+    width: 100%;
+    background-color: rgb(215, 212, 212);
+    padding: 14px;
+    padding-top: 4px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.right,.left{
+    padding: 20px;
+}
+.right i{
+    margin: 0px 10px;
+}
+#search{
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(240, 248, 255, 0.024);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:6px 4px;
+
+}
+.navbar i,a{
+    color: black;
+}
+
+.fa-list{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 4px;
+}
+
+.locations{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius:6px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+
+}
+.table{
+    width: 48%;
+    margin-top: 40px;
+}
+.table table{
+    width: 90%;
+    border-collapse: collapse;
+
+}
+.table td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+}
+.map{
+    width: 48%;
+}
+.map img{
+    width: 100%;
+}
+.head{
+position:absolute;
+top: 10px;
+left: 58px;
+}
+.fa-globe{
+    position: absolute;
+    border-radius: 4px;
+    top:-10px;
+    background-color: rgb(36, 142, 36);
+    padding: 12px;
+    color: white;
+}
+.tab{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 380px;
+    height: 30vh;
+}
+.tab h5{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.tab p{
+    color: rgb(84, 83, 83);
+}
+#green{
+    color: green;
+}
+.dashboard{
+    display:flex;
+    justify-content: space-evenly;
+}
+.graph{
+width: 98%;
+margin: auto;
+margin-top: -24px;
+border-radius: 6px;
+
+}
+.pink{
+background-color: crimson;
+
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: skyblue;
+}
